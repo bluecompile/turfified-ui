@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import TurfBookingScreen from '../components/TurfBookingScreen';
+import TurfBookingScreen from '../../components/TurfBookingScreen';
 
 export default function BookingPage() {
   const { id } = useParams();
